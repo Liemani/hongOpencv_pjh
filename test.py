@@ -1,11 +1,15 @@
+# pt 파일 경로 설정
+# 장치 번호 바꾸기
 import cv2
 from ultralytics import YOLO
 
 # 1. custom pt 모델 불러오기
-model = YOLO("/Volumes/mac/hiusjc_machine_learning_deep_learning_practical_project/hongOpencv/runs/detect/train5/weights/best.pt")   # 학습한 custom 모델 경로
+# pt 파일 경로 설정
+model = YOLO("/Users/bagjeonghun/local/hongOpencv_pjh/runs/detect/train2/weights/best.pt")   # 학습한 custom 모델 경로
 
 # 2. 웹캠 열기 (0: 기본 카메라, 숫자를 바꾸면 다른 카메라)
-cap = cv2.VideoCapture(1)
+# 장치 번호 바꾸기
+cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
     print("❌ 카메라를 열 수 없습니다.")
