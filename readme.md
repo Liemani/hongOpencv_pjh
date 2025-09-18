@@ -1,8 +1,9 @@
 ## 주요 파일 설명
 
-main.py : 자동 생성 파일
+main.py : uv 로 자동 생성됨
 train.py : 커스텀 객체 학습
 test.py : 모델 테스트
+yolo11n.pt : train.py 로 생성됨
 
 ## 실습 script
 

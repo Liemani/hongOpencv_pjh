@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 # 1. custom pt 모델 불러오기
 # pt 파일 경로 설정
-model = YOLO("/Users/bagjeonghun/local/hongOpencv_pjh/runs/detect/train2/weights/best.pt")   # 학습한 custom 모델 경로
+model = YOLO("/Users/bagjeonghun/local/hongOpencv_pjh/runs/detect/train4/weights/best.pt")   # 학습한 custom 모델 경로
 
 # 2. 웹캠 열기 (0: 기본 카메라, 숫자를 바꾸면 다른 카메라)
 # 장치 번호 바꾸기
