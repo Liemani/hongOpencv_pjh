@@ -26,7 +26,7 @@ python test.py
 
 # label-studio 실습
 pip install label-studio
-label-studio run
+label-studio start
 ```
 
 ### uv 버전
@@ -42,7 +42,7 @@ uv run test.py
 train.py
 
 # label-studio 실습
-uv run label-studio
+uv run label-studio start
 ```
 
 ## 더 해볼 수 있는 것
